@@ -21,7 +21,7 @@ namespace System
         public uint High;
         public uint Low;
         public uint Mid;
-
+        public uint makesNoSense;
         public bool IsNegative
         {
             get { return (Flags & SignMask) != 0; }
